@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Profile</title>
+		<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #e0f2f7; /* Light blue background */
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			margin: 0;
+			}
+
+		.container {
+			width: 800px;
+			background: white;
+			padding: 40px;
+			border: 4px solid #000;
+			box-shadow: 5px 5px 0px rgba(0,0,0,0.1);
+			}
+
+/* Top section holding the image and the details */
+		.header-section {
+			display: flex;
+			gap: 30px;
+			margin-bottom: 30px;
+			}
+
+		.profile-pic {
+			width: 300px; /* Fixed width as requested */
+			height: 250px; /* Fixed height */
+			border: 2px solid #000;
+			flex-shrink: 0; /* Prevents the image box from ever shrinking */
+			overflow: hidden;
+			}
+
+		.profile-pic img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			}
+
+		.details {
+			flex-grow: 1;
+			}
+
+		.details h1 {
+			font-size: 42px;
+			margin: 0 0 10px 0;
+			text-transform: uppercase;
+			border-bottom: 2px solid #000; /* The underline in your image */
+			display: inline-block;
+			width: 100%;
+			padding-bottom: 5px;
+			}
+
+		.details p {
+			font-size: 20px;
+			margin: 15px 0;
+			}
+
+/* Full-width text section at the bottom */
+		.bio-text {
+			font-size: 18px;
+			line-height: 1.6;
+			text-align: justify;
+			margin-top: 10px;
+			}
+
+		strong {
+			font-weight: bold;
+			}
+		</style>
+	</head>
+
+		<body>
+			<div class="container">
+			<div class="header-section">
+			<div class="profile-pic">
+			<img src="MyProfile.jpeg" alt="My Profile">
+		</div>
+
+			<div class="details">
+				<h1>ABOUT ME</h1>
+				<p><strong>Name:</strong> Khym Ivan A. Varona</p>
+				<p><strong>Course:</strong> Bachelor of Science in Computer Science</p>
+				<p><strong>Section:</strong> 1-B</p>
+				<p><strong>Student Number:</strong> 251100808</p>
+			</div>
+		</div>
+
+		<div class="bio-text">
+			<p>
+			I am a <strong>25-years-old working student</strong> and a returnee from CvSU Indang. To prioritize my family's financial stability, I stepped away from my studies for three years—a period that taught me the value of perseverance and hard work.
+			</p>
+			<p>
+		I have recently transferred to Silang to strategically balance my professional responsibilities in <strong>GMA, Cavite</strong> with my academic pursuits. My focus is now entirely on navigating the challenges of a Computer Science degree and finally reaching my ultimate long-term goal: <strong>becoming a proud college graduate.</strong>
+</p>
+		</div>
+		</div>
+	</body>
+</html>
